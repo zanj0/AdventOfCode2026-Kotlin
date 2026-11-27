@@ -1,25 +1,13 @@
-# AdventOfCode2026-Kotlin
+# Advent of Code 2026 in Kotlin
 
-Welcome to the Advent of Code[^aoc] Kotlin project created by [zanj0][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+Kotlin solutions by [zanj0](https://github.com/zanj0) for the [JetBrains Advent of Code 2026 challenge](https://blog.jetbrains.com/kotlin/2026/11/advent-of-code-2026-in-kotlin/).
 
-In this repository, zanj0 is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+## Prize entry
 
-If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
+Solve at least three 2026 puzzles in Kotlin without AI and publish those solutions here. JetBrains uses the repository topic `aoc-2026-in-kotlin` to find entries and the contact method on the participant’s GitHub profile to reach winners.
 
-- [Kotlin docs][docs]
-- [Kotlin Slack][slack]
-- Template [issue tracker][issues]
+## Working on a day
 
+The [official Kotlin starter](https://github.com/kotlin-hands-on/advent-of-code-kotlin-template) provides the Gradle wrapper, `src/Day01.kt`, and the input reader in `src/Utils.kt`. Copy the day file for subsequent puzzles. Use the matching day name when reading each input.
 
-[^aoc]:
-    [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
-    Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-five days.
-    You can solve the puzzle and provide an answer using the language of your choice.
-
-[aoc]: https://adventofcode.com
-[docs]: https://kotlinlang.org/docs/home.html
-[github]: https://github.com/zanj0
-[issues]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template/issues
-[kotlin]: https://kotlinlang.org
-[slack]: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
-[template]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template
+Keep personal inputs in the ignored `src/DayNN.txt` files. Put your own local test data in `src/DayNN_test.txt`. Open the Gradle project in IntelliJ IDEA and run the day's `main` function, or use `./gradlew compileKotlin` to compile the project.
